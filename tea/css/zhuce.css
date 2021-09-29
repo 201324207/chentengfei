@@ -1,0 +1,123 @@
+/*css初始样式*/
+body,ul,li,a{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    }
+input{
+    outline: none;
+}
+h1{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 780px;
+    height: 100px;
+    font-size: 0px;
+    background: url(../images/bg1.gif) no-repeat;
+}
+ul {
+    text-align: right;
+    margin-top: 20px;
+   }
+ul li {
+    list-style: none;
+    font-size: 12px;
+    margin-right: 80px;  
+      }
+a{
+    color: black;
+}
+.style_red{
+    color: red;
+}
+.style_font{
+    font-size: 14px;
+    margin-left: 20px;
+}
+h4{
+    font-size: 14px;
+    height: 30px;
+    font-weight: normal;
+    width: 775px;
+    padding-left: 5px;
+    line-height: 30px;
+    margin: 0 auto;
+    background-color: rgb(230, 241, 123);
+}
+section{
+    width: 780px;
+    height: 470px;
+    background-color: #ffffdb;
+    margin: 0 auto;
+}
+h5{
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    margin: 0 auto;
+    width: 690px;
+    height: 30px;
+    padding-top: 10px ;
+    line-height: 30px;
+    border-bottom:1px solid black;
+}
+form{
+    padding-left: 30px;
+    width: 610px;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-top: 30px;
+}
+form p{
+    margin-top: 10px;
+}
+form p .pwd{
+    margin-left: 14px;
+}
+
+.foot{
+    text-align: center;
+}
+.foot button{
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 100px;
+}
+footer{
+    background-color:#deeed1;
+    height: 50px;
+    width: 780px;
+    margin: 0 auto;
+}
+footer p{
+    margin: 0;
+    text-align: center;
+    padding-top: 3px;
+    border-bottom: 1px solid black;
+}
+.phone{
+    margin-left: 24px;
+}
+.pwd{
+   margin-left: 10px;
+}
+.jianjie{
+    height: 96px;
+    line-height: 96px;
+    padding-left: 13px;
+    vertical-align:middle;
+}
+textarea{
+    outline: none;
+    vertical-align: middle;
+}
+div{
+    width: 610px;
+    margin: 0 auto;
+    text-align: center;
+}
+button{
+    margin-left: 5px;
+    width: 80px;
+}

@@ -1,0 +1,132 @@
+    /* 页面整体样式清零 */
+    body,ul,h6,p{ 
+        margin: 0;
+        padding:0;
+    }
+    li{
+        list-style: none;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+    }
+    /* 头部收藏加够部分 */
+   header ul{
+        margin: 0;
+        padding: 0;
+        text-align:right;
+        padding-right: 77px;
+        padding-top: 17px;
+    }
+    header ul li{
+        list-style: none;
+    }
+     header ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+    }
+    header{
+        width: 782px;
+        height: 100px;
+        background: url(../images/bg1.gif) no-repeat;
+        margin: 0 auto;
+    }
+    /* 中间部分 */
+    .bd{
+        width: 782px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    /* 网址导航模块 */
+    article{
+        width: 231px;
+        height: 517px;
+        float: left;
+        background-color:#D3FF87;
+    }
+    .bd ul {
+        text-align: center;
+    }
+    .webnav{          
+            height: 228px;
+            width: 200px;
+            margin: 0 auto;
+            
+    }
+    .webnav li {
+        height: 25px;
+        line-height: 25px;
+        margin-top: 5px;
+        background: url(../images/ai.gif) center no-repeat;
+        list-style:none;
+    }
+    article .webnav li:first-child{
+        height: 48px;
+        background: url(../images/dg.jpg) center center no-repeat;
+    }
+    /* 联系我们 */
+    .help{
+        width: 200px;
+        height: 40px;
+        background: url(../images/lx.jpg);
+        margin: 0px auto;
+        margin-top: 13px;
+    }
+    .lianxi{
+        width: 200px;
+        height:184px;
+        margin: 0 auto;
+        
+    }
+    .lianxi ul{
+        width: 200px;
+        height: 144px;
+        background: url(../images/bg2.gif) repeat-y;
+             }     
+    .lianxi ul li{
+            height: 36px;
+            line-height: 36px;
+            text-align: left;
+            font-size: 12px;
+            padding-left: 5px;
+    }    
+    /* 文字部分 */
+    aside{
+        padding-left: 12px;
+        float: left;
+        width: 537px;
+        height:517px;
+        background-color: #ffffdb;
+    }
+    aside h4{
+        margin: 0;
+        padding: 0;
+        text-align: left;
+        margin-top:5px ;
+        font-size: 12px;
+        font-weight: normal;
+        padding-bottom: 115px;
+        background: url(../images/infoqz.jpg) no-repeat left center;
+    }
+    h6{
+        font-weight: normal;
+    }
+    p{
+        text-indent: 1em;
+        font-size: 12px;
+        margin-bottom: 20px;
+    }
+    footer{
+        margin: 0 auto;
+        padding-top: 32px;
+        width: 782px;
+        height: 40px;
+        background-color: #deeed1;
+    }
+    footer p{
+        text-align: center;
+        border-top: 1px solid;
+        padding-top: 5px;
+    }
